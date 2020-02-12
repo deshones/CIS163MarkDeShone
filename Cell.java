@@ -1,10 +1,9 @@
-package ProjectTwo;
-
+package Project2;
 import javax.swing.*;
 
 public class Cell {
 
-    private int playerNumber;
+    private int playeNumber;
     /*
      *  First, the Surround4 game class will only use the player
      *   number to determine a winner.
@@ -21,13 +20,12 @@ public class Cell {
      *
      */
 
-    public Cell(int playerNumber) {
-        //super();
-        this.playerNumber = playerNumber;
+    public Cell(int playeNumber) {
+        super();
+        this.playeNumber = playeNumber;
     }
 
-    public int getPlayerNumber() {
-        return playerNumber;
+    public int getPlayeNumber() {
+        return playeNumber;
     }
 }
-
